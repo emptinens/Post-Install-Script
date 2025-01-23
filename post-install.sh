@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define the packages to install for each system
-arch_packages=("firefox" "python" "neovim" "telegram-desktop" "discord" "pavucontrol" "pipewire" "neofetch" "kdeconnect")    # Replace with your Arch-specific packages
-debian_packages=("package4" "package5" "package6")  # Replace with your Debian-specific packages
+arch_packages=("firefox" "python" "neovim" "telegram-desktop" "git" "tmux" "pavucontrol" "pipewire" "neofetch" "kdeconnect")    # Replace with your Arch-specific packages
+debian_packages=("firefox" "python" "neovim" "telegram-desktop" "pavucontrol" "pipewire" "neofetch" "kdeconnect" "git" "tmux")  # Replace with your Debian-specific packages
 
 # Function to install packages for Arch-based systems using pacman
 install_arch() {
@@ -18,6 +18,31 @@ install_debian() {
 }
 
 # Prompt the user to select the system type
+echo "Created by emptinens"
+echo "
+
+▓█████  ███▄ ▄███▓ ██▓███  ▄▄▄█████▓ ██▓ ███▄    █ ▓█████  ███▄    █   ██████ 
+▓█   ▀ ▓██▒▀█▀ ██▒▓██░  ██▒▓  ██▒ ▓▒▓██▒ ██ ▀█   █ ▓█   ▀  ██ ▀█   █ ▒██    ▒ 
+▒███   ▓██    ▓██░▓██░ ██▓▒▒ ▓██░ ▒░▒██▒▓██  ▀█ ██▒▒███   ▓██  ▀█ ██▒░ ▓██▄   
+▒▓█  ▄ ▒██    ▒██ ▒██▄█▓▒ ▒░ ▓██▓ ░ ░██░▓██▒  ▐▌██▒▒▓█  ▄ ▓██▒  ▐▌██▒  ▒   ██▒
+░▒████▒▒██▒   ░██▒▒██▒ ░  ░  ▒██▒ ░ ░██░▒██░   ▓██░░▒████▒▒██░   ▓██░▒██████▒▒
+░░ ▒░ ░░ ▒░   ░  ░▒▓▒░ ░  ░  ▒ ░░   ░▓  ░ ▒░   ▒ ▒ ░░ ▒░ ░░ ▒░   ▒ ▒ ▒ ▒▓▒ ▒ ░
+ ░ ░  ░░  ░      ░░▒ ░         ░     ▒ ░░ ░░   ░ ▒░ ░ ░  ░░ ░░   ░ ▒░░ ░▒  ░ ░
+   ░   ░      ░   ░░         ░       ▒ ░   ░   ░ ░    ░      ░   ░ ░ ░  ░  ░  
+   ░  ░       ░                      ░           ░    ░  ░         ░       ░  
+                                                                              
+
+"
+echo "                     "
+echo "                     "
+echo "                     "
+echo "                     "
+echo "                     "
+echo "                     "
+echo "                     "
+
+
+
 echo "Please select your system type:"
 echo "1) Arch-based system (pacman)"
 echo "2) Debian-based system (apt)"
